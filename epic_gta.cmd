@@ -2,6 +2,7 @@
 
 :choices
 cls
+echo replace G:\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe with your path
 echo Computername = %computername%
 echo The first time , the administrator has to fill the password , it will be saved with the /savecred option.
 echo For the gta ( story ) , the administrator has to copy your folder ( Documents\Rockstar Games ) to its documents folder .

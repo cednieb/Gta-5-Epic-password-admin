@@ -2,10 +2,11 @@
 
 :choices
 cls
-echo replace G:\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe with your path
-echo Computername = %computername%
+echo Replace G:\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe with your path .
+echo Replace Administrator with the admin name or setup the admin account .
+echo The computer name is %computername% .
 echo The first time , the administrator has to fill the password , it will be saved with the /savecred option.
-echo For the gta ( story ) , the administrator has to copy your folder ( Documents\Rockstar Games ) to its documents folder .
+echo For the gta story , the administrator has to copy your folder ( Documents\Rockstar Games ) to its documents folder .
 echo ------------------------------------------------------------------------------------------------------------------------------------
 echo ------------------------------------------------------------------------------------------------------------------------------------
 echo If you see several icons ( Epic ) near the clock  .
@@ -45,19 +46,3 @@ C:\Windows\System32\runas.exe /user:%computername%\Administrator /savecred "G:\E
 goto :choices
 
 :end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

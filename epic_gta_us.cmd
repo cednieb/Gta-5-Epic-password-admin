@@ -5,7 +5,7 @@ cls
 echo Replace G:\Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe with your path .
 echo Replace Administrator with the admin name in the next line or setup the admin account .
 set Admin=Administrator
-echo %Admin%
+echo The admin is %Admin%
 echo The computer name is %computername% .
 echo The first time , the administrator has to fill the password , it will be saved with the /savecred option.
 echo For the gta story , the administrator has to copy your folder ( Documents\Rockstar Games ) to its documents folder .

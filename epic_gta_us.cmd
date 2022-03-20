@@ -26,7 +26,7 @@ SET /P choice= 1 , 2 , 3 or 4 and press return :
 
 if %choice% == 1 ( goto :epickill )
 if %choice% == 2 ( goto :epic )
-if %choice%c== 3 ( goto :epicadmin )
+if %choice% == 3 ( goto :epicadmin )
 if %choice% == 4 ( goto :end )
 
 :epickill
